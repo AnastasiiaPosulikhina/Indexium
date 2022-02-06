@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P9lmeFjjIZwAZi92oP6JGU+nlPmk7eLYuhdnI+lKv9cYl5xwmdElr+MPra0O+fpFgOEq/leyrMhq3+vsQp6Jhg==",
+  "dgSpecHash": "o2oFIaV6JfwzT8TLM4ATeQBnI6u0cVzziyfB3Pw8fg49WDH3PnEcXhcwY1W+o737fWfqUXucMMADjg7pUjOspA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\DataHandler\\DataHandler.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

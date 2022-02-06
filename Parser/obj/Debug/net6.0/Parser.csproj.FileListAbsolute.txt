@@ -1,6 +1,4 @@
-C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.exe
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.deps.json
-C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.runtimeconfig.json
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\ref\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.pdb
@@ -12,4 +10,3 @@ C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Par
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\ref\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.pdb
-C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.genruntimeconfig.cache
