@@ -9,10 +9,21 @@
 
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="NHibernate" Version="5.3.10" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Parser\Parser.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DataBase Management\NHibernate" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Nhibernate.cfg.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
