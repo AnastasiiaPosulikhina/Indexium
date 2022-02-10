@@ -1,5 +1,6 @@
 ﻿using DataHandler;
 using DataHandler.Data_Processing;
+using DataHandler.Entities;
 using NHibernate.Cfg;
 using Parser.Parser_Components;
 
@@ -24,6 +25,7 @@ var cfgFile = "Nhibernate.cfg.xml";
 var nhConfig = new Configuration().Configure(cfgFile);
 var sessionFactory = nhConfig.BuildSessionFactory();
 Console.WriteLine("NHibernate Configured!");
+
 
 
 

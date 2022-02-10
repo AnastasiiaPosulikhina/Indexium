@@ -25,5 +25,5 @@ C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\Nhibernate.cfg.xml
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\DataHandler\bin\Debug\net6.0\Nhibernate.cfg.xml
