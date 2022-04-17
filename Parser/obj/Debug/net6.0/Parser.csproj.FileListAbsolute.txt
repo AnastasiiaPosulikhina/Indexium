@@ -1,6 +1,5 @@
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.deps.json
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.dll
-C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\ref\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\bin\Debug\net6.0\Parser.pdb
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.csproj.AssemblyReference.cache
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Par
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\ref\Parser.dll
 C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\Parser.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\Indexium\Parser\obj\Debug\net6.0\refint\Parser.dll

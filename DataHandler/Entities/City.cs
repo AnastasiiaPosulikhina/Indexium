@@ -7,4 +7,5 @@ public class City
 	public virtual Climate Climate { get; set; }
 	public virtual double[] GeographicalCoordinates { get; set; }
 	public virtual int Population { get; set; }
+	public virtual DateTime InfoRefreshDate { get; set; }
 }

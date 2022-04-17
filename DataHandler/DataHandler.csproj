@@ -18,13 +18,16 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DataBase Management\NHibernate" />
+      <None Remove="City.hbm.xml" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="Nhibernate.cfg.xml">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+      <None Remove="District.hbm.xml" />
+      <None Remove="Criterion.hbm.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Index.hbm.xml" />
     </ItemGroup>
 
 </Project>

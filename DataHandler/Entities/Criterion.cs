@@ -8,4 +8,5 @@ public class Criterion
 	public virtual CriterionType Type { get; set; }
 	public virtual int CriterionValue { get; set; }
 	public virtual string DataSource { get; set; }
+	public virtual DateTime InfoRefreshDate { get; set; }
 }
