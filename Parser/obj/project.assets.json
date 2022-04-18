@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Parser\\Parser.csproj",
+      "projectUniqueName": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Parser\\Parser.csproj",
       "projectName": "Parser",
-      "projectPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Parser\\Parser.csproj",
+      "projectPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Parser\\Parser.csproj",
       "packagesPath": "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Parser\\obj\\",
+      "outputPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Parser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

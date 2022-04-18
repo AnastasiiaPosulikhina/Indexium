@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Indexer\\Indexer.csproj": {}
+    "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Indexer\\Indexer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Indexer\\Indexer.csproj": {
+    "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Indexer\\Indexer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Indexer\\Indexer.csproj",
+        "projectUniqueName": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Indexer\\Indexer.csproj",
         "projectName": "Indexer",
-        "projectPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Indexer\\Indexer.csproj",
+        "projectPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Indexer\\Indexer.csproj",
         "packagesPath": "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium\\Indexer\\obj\\",
+        "outputPath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\Indexium17.04\\Indexer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

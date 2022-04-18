@@ -2,5 +2,5 @@
 
 public interface IParse
 {
-    public string Parse(string URL);
+    public string Parse(string URL, string cityName);
 }
