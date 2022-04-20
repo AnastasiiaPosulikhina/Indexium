@@ -3,4 +3,9 @@
   <component name="ProjectResources">
     <resource url="urn:nhibernate-configuration-2.2" location="$PROJECT_DIR$" />
   </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
 </project>

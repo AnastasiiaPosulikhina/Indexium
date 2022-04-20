@@ -1,6 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  font-size: 20px;
+}
 
-/* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
