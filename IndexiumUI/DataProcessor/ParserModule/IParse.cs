@@ -1,4 +1,4 @@
-﻿namespace IndexiumUI.Parser;
+﻿namespace IndexiumUI.DataProcessor.ParserModule;
 
 public interface IParse
 {

@@ -1,17 +1,52 @@
 <html>
+  <head>
+    <title>Indexium</title>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/microplugin.js/src/microplugin.js"></script>
+    <script src="https://snipp.ru/cdn/sifter.js/sifter.min.js"></script>
+    <script src="https://snipp.ru/cdn/selectize.js/0.12.6/dist/js/selectize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.js-selectize').selectize();
+      });
+    </script>
+  </head>
   <body>
   <h2>Индекс благополучности городских районов</h2>
   <p>
     блаблабла про индекс
   </p>
-    <div class="city">
-      <h3>Выбор города</h3>
-      <form method="POST" action="index.php?action=contact_agent">
-        <select name="city" required>
-          <option value="spb">Санкт-Петербург</option>
-        </select>
-        <input type="submit" value="Submit">
+      <form method="POST" action="">
+        <div class="city">
+          <h3>Выбор города</h3>
+          <select name="city">
+            <option value="spb">Санкт-Петербург</option>
+          </select>
+        </div>
+        <br>
+        <div class="district">
+          <h3>Выбор района</h3>
+          <select name="district">
+            <option value="">Адмиралтейский</option>
+          </select>
+        </div>
+        <br>
+        <div class="criterion">
+          <h3>Выбор критериев</h3>
+          <!-- выпадающий список с возможностью выбора элементов списка -->
+          <select name="criterion">
+            <option value="">Критерий 1</option>
+          </select>
+        </div>
+        <br>
+        <div class="index">
+          <h3>Индекс</h3>
+          <label>Значение индекса</label>
+          <br>
+          <label>Уровень благополучности города</label>
+        </div>
+        <br>
+        <button type="submit">Узнать</button>
       </form>
-    </div>
   </body>
 </html>

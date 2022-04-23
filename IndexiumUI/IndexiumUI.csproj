@@ -23,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="DataBase" />
       <Folder Include="Indexer" />
       <Folder Include="Logger" />
     </ItemGroup>

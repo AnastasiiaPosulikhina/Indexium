@@ -1,14 +1,13 @@
 ﻿using System.Net;
 using System.Text;
 using IndexiumUI.Entities;
-using IndexiumUI.Parser.DataHandlerModule.DataHandlerComponents;
 
-namespace IndexiumUI.Parser.ParserComponents;
+namespace IndexiumUI.DataProcessor.ParserModule.ParserComponents;
 
 public class YandexMapsParser : Parser
 {
     private const string Key = "https://search-maps.yandex.ru/v1/?apikey=a31ab3e4-acea-4b6f-be2e-c004f538e78b";
-    private readonly string[] _objectsToParse =
+    private static readonly string[] ObjectsToParse =
     {
         "детский сад",
         "общеобразовательная школа",
@@ -22,12 +21,10 @@ public class YandexMapsParser : Parser
     };
 
     private readonly City _chosenCity;
-    private readonly YandexMapsDataHandler _yandexMapsDataHandler;
 
-    public YandexMapsParser(City chosenCity, YandexMapsDataHandler yandexMapsDataHandler)
+    public YandexMapsParser(City chosenCity)
     {
         _chosenCity = chosenCity;
-        _yandexMapsDataHandler = yandexMapsDataHandler;
     }
 
     public override string Download(string URL)
@@ -56,18 +53,16 @@ public class YandexMapsParser : Parser
 
     public override List<string> Parse()
     {
-        var databaseEntries = new List<string>();
+        var parsedData = new List<string>();
 
         foreach (var district in _chosenCity.Districts)
         {
-            foreach (var objectToParse in _objectsToParse)
+            foreach (var objectToParse in ObjectsToParse)
             {
-                var parsedData = Download($"{Key}&text={_chosenCity.Name}, {district.Name}, {objectToParse}&lang=ru_RU&results=500");
-                var handledData = _yandexMapsDataHandler.ExtractUsefulData(parsedData);
-                databaseEntries.Add(_yandexMapsDataHandler.PrepareDatabaseEntry(handledData)); // заменить на модуль, отвечающий за бд
+                parsedData.Add(Download($"{Key}&text={_chosenCity.Name}, {district.Name} район, {objectToParse}&lang=ru_RU&results=500"));
             }
         }
 
-        return databaseEntries;
+        return parsedData;
     }
 }
