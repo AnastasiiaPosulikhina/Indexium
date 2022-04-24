@@ -6,7 +6,7 @@ public abstract class Handler: IHandle
 
     public Int32 ConvertToInt32(string data)
     {
-        return 0;
+        return 0; // доделать
     } 
 
 }

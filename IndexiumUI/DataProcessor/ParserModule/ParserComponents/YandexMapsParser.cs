@@ -12,7 +12,8 @@ public class YandexMapsParser : Parser
         "детский сад",
         "общеобразовательная школа",
         "ВУЗ",
-        "медицинское учреждение",
+        "государственная больница",
+        "частное медицинское учреждение",
         "продуктовый магазин",
         "торгово-развлекательный центр",
         "промышленное предприятие, завод",
@@ -22,6 +23,10 @@ public class YandexMapsParser : Parser
 
     private readonly City _chosenCity;
 
+    public YandexMapsParser()
+    {
+    }
+    
     public YandexMapsParser(City chosenCity)
     {
         _chosenCity = chosenCity;

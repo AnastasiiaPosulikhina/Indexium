@@ -8,6 +8,7 @@ public abstract class Parser: IParse
 
     public void ParseToFile(string path, string content)
     {
-        File.WriteAllText(path, content);
+        File.WriteAllText(path, content); 
     }
 }
+
