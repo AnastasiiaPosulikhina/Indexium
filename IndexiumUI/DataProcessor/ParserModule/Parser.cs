@@ -1,4 +1,5 @@
-﻿namespace IndexiumUI.DataProcessor.ParserModule;
+﻿// ReSharper disable InconsistentNaming
+namespace IndexiumUI.DataProcessor.ParserModule;
 
 public abstract class Parser: IParse
 {

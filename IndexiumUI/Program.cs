@@ -26,6 +26,4 @@
 //
 // app.Run();
 
-using IndexiumUI.DataProcessor.ParserModule.ParserComponents;
-using IndexiumUI.Entities;
 
