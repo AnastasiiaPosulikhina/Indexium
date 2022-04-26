@@ -11,23 +11,41 @@ public class City
 	
 	public List<District> Districts { get; set; }
 
-	public City(Guid cityId, string name, string geographicalCoordinates, DateTime infoRefreshDate, List<District> districts)
+	// конструкторы для создания записей в базе данных
+	public City(string name, string geographicalCoordinates)
 	{
-		CityId = cityId;
 		Name = name;
 		GeographicalCoordinates = geographicalCoordinates;
-		InfoRefreshDate = infoRefreshDate;
-		Districts = districts;
+	}
+	
+	public City(string name, string geographicalCoordinates, int population)
+	{
+		Name = name;
+		GeographicalCoordinates = geographicalCoordinates;
+		Population = population;
+	}
+	
+	public City(string name, string climate, string geographicalCoordinates)
+	{
+		Name = name;
+		Climate = climate;
+		GeographicalCoordinates = geographicalCoordinates;
 	}
 
-	public City(Guid cityId, string name, string climate, string geographicalCoordinates, int population, DateTime infoRefreshDate, List<District> districts)
+	public City(string name, string climate, string geographicalCoordinates, int population)
 	{
-		CityId = cityId;
 		Name = name;
 		Climate = climate;
 		GeographicalCoordinates = geographicalCoordinates;
 		Population = population;
+	}
+	
+	// конструктор для чтения данных из базы
+	public City(Guid cityId, string name, string geographicalCoordinates, DateTime infoRefreshDate)
+	{
+		CityId = cityId;
+		Name = name;
+		GeographicalCoordinates = geographicalCoordinates;
 		InfoRefreshDate = infoRefreshDate;
-		Districts = districts;
 	}
 }

@@ -26,4 +26,11 @@
 //
 // app.Run();
 
+using IndexiumUI.DataBase;
+using IndexiumUI.Entities;
+
+var dataBaseWorker = new DataBaseWorker();
+City city = new City("Орел4", "климат","координаты", 55);
+// dataBaseWorker.ReadDataFromDataBase("SELECT name FROM district WHERE city_id = 1");
+dataBaseWorker.WriteDataToDataBase(DataBaseAPI.SetCityInDataBase(city));
 
